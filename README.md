@@ -17,6 +17,7 @@ Use sample_values as the values for the bar chart.
 Use otu_ids as the labels for the bar chart.
 
 Use otu_labels as the hovertext for the chart.
+
 https://static.bc-edx.com/data/dl-1-2/m14/lms/img/hw01.jpg
 
 bar Chart
