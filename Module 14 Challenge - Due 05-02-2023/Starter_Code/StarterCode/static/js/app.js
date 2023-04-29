@@ -154,8 +154,8 @@ function initialize()
 
         //call the function to build the metadata
         demographicInfo(samp1);
-       // call function to build the bar chart
-       buildBarChart(samp1);
+        // call function to build the bar chart
+        buildBarChart(samp1);
     });
 
 
