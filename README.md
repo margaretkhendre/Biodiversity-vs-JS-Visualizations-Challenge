@@ -19,6 +19,8 @@ Complete the following steps:
 
 - Use otu_labels as the hovertext for the chart.
 
+<img width="148" alt="Screenshot 2023-05-01 at 5 16 47 PM Small" src="https://user-images.githubusercontent.com/121995835/235539937-e35bd4e4-1925-4f00-bb17-a99728f29d30.png">
+
 
 ### Bubble Chart
 3. Create a bubble chart that displays each sample.
