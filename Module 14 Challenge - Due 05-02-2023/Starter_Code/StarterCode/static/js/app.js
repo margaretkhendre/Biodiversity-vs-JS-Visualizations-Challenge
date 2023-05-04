@@ -11,11 +11,11 @@ function demographicInfo(sample)
 
         // filter based on value of sample- returns 1 result in array 
         let result = metaData.filter(sampleResult => sampleResult.id == sample);
-        //console.log(result);
+        console.log(result);
 
         // access index 0 for array
         let resultData = result[0];
-        //console.log(resultData);
+        console.log(resultData);
 
         // clearout the metadata and set html equal to blank text
         d3.select("#sample-metadata").html("");
