@@ -79,7 +79,8 @@ function buildBarChart(sample)
         }
 
         let layout = {
-            title: "Top 10 Belly Button Bacteria"
+            title: "Top 10 Belly Button Bacteria",
+            yaxis: {title: "OTU ID"}
         };
 
         Plotly.newPlot("bar", [barChart], layout);
@@ -122,7 +123,8 @@ function buildBubbleChart(sample)
         let layout = {
             title: "Bacteria Cultures per Sample",
             hovermode: "closest",
-            xaxis: {title: "OTU ID"}
+            xaxis: {title: "OTU ID"},
+            yaxis: {title: "Sample Values"}
         };
 
         Plotly.newPlot("bubble", [bubbleChart], layout);
