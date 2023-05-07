@@ -158,6 +158,8 @@ function initialize()
         demographicInfo(samp1);
         // call function to build the bar chart
         buildBarChart(samp1);
+        // call function to build the bubble chart
+        buildBubbleChart(samp1)
     });
 
 
